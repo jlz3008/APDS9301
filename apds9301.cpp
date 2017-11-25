@@ -13,7 +13,8 @@
 //-------------------------------------------------------------------------------
 LuxI2C_APDS9301::LuxI2C_APDS9301( uint8_t i2c_addr)
 {
-    Wire.begin();
+// This library requires you to initialize i2c yourself.
+//    Wire.begin();
 
     m_u8I2CAddr = i2c_addr;
 }
