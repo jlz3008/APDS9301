@@ -1,0 +1,15 @@
+{
+    "name": "apds9301",
+    "keywords": "2-wire, bus, sensor, light",
+    "description": "Arduino Library for APDS9301 I2C Light Sensor",
+    "exclude": [
+        "docs",
+        "test"
+    ],
+    "frameworks": "arduino",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jlz3008/apds9301.git"
+    },
+    "version": "0.3.0"
+}
